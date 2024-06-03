@@ -564,7 +564,7 @@
             android:imeSubtypeLocale="ipa"
             android:languageTag="ipa"
             android:imeSubtypeMode="keyboard"
-            android:imeSubtypeExtraValue="AsciiCapable,EmojiCapable"
+            android:imeSubtypeExtraValue="KeyboardLayoutSet=qwerty+,AsciiCapable,EmojiCapable"
             android:isAsciiCapable="true"
     />
     <!-- Java uses the deprecated "iw" code instead of the standard "he" code for Hebrew. -->
