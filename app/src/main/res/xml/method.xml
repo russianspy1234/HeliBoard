@@ -55,6 +55,7 @@
     hu_HU: Hungarian/qwerty
     hy_AM: Armenian (Armenia) Phonetic/armenian_phonetic
     in: Indonesian/qwerty    # "id" is the official language code of Indonesian.
+    ipa: IPA phonetic alphabet
     is: Icelandic/qwerty
     it: Italian/qwerty
     it_CH: Italian (Switzerland)/qwertz+
@@ -555,6 +556,15 @@
             android:languageTag="it-CH"
             android:imeSubtypeMode="keyboard"
             android:imeSubtypeExtraValue="KeyboardLayoutSet=qwertz+,AsciiCapable,EmojiCapable"
+            android:isAsciiCapable="true"
+    />
+    <subtype android:icon="@drawable/ic_ime_switcher"
+            android:label="@string/subtype_generic"
+            android:subtypeId="0x8d12efc6"
+            android:imeSubtypeLocale="ipa"
+            android:languageTag="ipa"
+            android:imeSubtypeMode="keyboard"
+            android:imeSubtypeExtraValue="AsciiCapable,EmojiCapable"
             android:isAsciiCapable="true"
     />
     <!-- Java uses the deprecated "iw" code instead of the standard "he" code for Hebrew. -->
